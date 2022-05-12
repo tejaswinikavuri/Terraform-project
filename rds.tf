@@ -14,7 +14,7 @@ resource "aws_db_instance" "default" {
   instance_class       = "db.t2.micro"
   db_name              = "mydatabase"
   username             = "mydatabase"
-  password             = "**************"
+  password             = "*************"
   parameter_group_name = "default.mysql8.0"
   skip_final_snapshot  = true
 
