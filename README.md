@@ -1,2 +1,0 @@
-# Terraform-project
- Terraform code
