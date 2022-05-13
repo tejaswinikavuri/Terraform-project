@@ -25,7 +25,7 @@ availability_zone = "us-east-1b"
 resource "aws_lb" "test" {
   name               = "test-lb-tf"
   internal           = false
-  load_balancer_type = "application"
+  load_balancer_type = "network"
   subnets            = [aws_subnet.example1.id, aws_subnet.example2.id]
 
 
