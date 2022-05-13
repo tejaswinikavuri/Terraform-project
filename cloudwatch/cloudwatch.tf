@@ -27,8 +27,6 @@ resource "aws_cloudwatch_log_metric_filter" "CloudWatch" {
 
 }
 
-
-
 resource "aws_cloudwatch_log_group" "CloudWatch1" {
   name = "MyApp/access.log"
 }
