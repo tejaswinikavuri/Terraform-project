@@ -1,9 +1,3 @@
-# resource "aws_placement_group" "test" {
-# name = "test"
-# strategy = "cluster"
-# }
-
-
 data "aws_ami" "ubuntu" {
 most_recent = true
 filter {
