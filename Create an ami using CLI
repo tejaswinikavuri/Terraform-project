@@ -1,0 +1,7 @@
+#Creating an instance#
+
+aws ec2 run-instances --image-id ami-***** --instance-type t2.micro --key-name ****** --user-data file:C:****\****\userdata.txt
+
+#Creating an AMI
+
+aws ec2 create-image --instance-id i-*************** --name "image" --no-reboot
